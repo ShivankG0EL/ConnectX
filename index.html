@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cab Price Comparison</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <script>
         async function getPrices() {
             return {
@@ -44,31 +44,30 @@
         }
     }
 </script>
-
-    </script>
 </head>
 <body class="bg-black text-white">
     <div class="container mx-auto px-4">
         <header class="flex items-center justify-between py-2 border-b border-gray-600">
             <div class="flex items-center space-x-2">
                 <img src="Connectx.png" alt="ConnectX logo" class="h-8 w-auto"/>
+                <span class="text-2xl font-bold"></span>
             </div>
-            <div class="flex space-x-4">
-                <a href="#" class="text-white px-4 py-2 rounded-md">Log in</a>
-                <a href="#" class="bg-white text-black px-4 py-2 rounded-md">Sign up</a>
-                <a href="#" class="text-white px-4 py-2 rounded-md">More</a>
+            <div class="flex space-x-2">
+                <a href="#" class="text-white">Log in</a>
+                <a href="#" class="text-white" id="Signup">Sign up</a>
+                <a href="#" class="text-white">More</a>
             </div>
         </header>
         <div class="my-8 flex">
-            <img src="location.png" alt="Image" style="height:350px;width:550px;">
+            <img src="location.png" alt="Image" style="height:550px;width:650px;margin: 0px 0px 0px 60px;" class="Image">
             <div class="ml-4">
-                <h2 class="text-2xl font-bold my-4 mx-2">Enter Your Ride Details</h2>
+                <h2 class="text-2xl font-bold my-4 mx-2">Compare Pricing in One Go</h2>
                 <div class="flex space-x-2">
-                    <input type="text" placeholder="Pickup Location" class="px-2 py-1 border rounded-md bg-white text-black">
-                    <input type="text" placeholder="Drop-off Location" class="px-2 py-1 border rounded-md bg-white text-black">
+                    <input type="text" placeholder="Location" class="px-2 py-1 border rounded-md bg-white text-black">
+                    <input type="text" placeholder="Destination" class="px-2 py-1 border rounded-md bg-white text-black">
                 </div>
                 <div class="flex justify-center my-8">
-                    <div class="px-4 py-2 bg-blue-500 text-white rounded-md" onclick="showPrices()">See Prices</div>
+                    <div class="px-4 py-2 bg-blue-500 text-white rounded-md" id="Price" onclick="showPrices()">See Prices</div>
                 </div>
                 <ul id="priceList"></ul>
             </div>

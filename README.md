@@ -17,3 +17,8 @@ Loyalty Program Integration: If the cab service providers have loyalty programs,
 Environment Impact: Show an estimate of the carbon footprint for the ride. This could encourage users to choose more environmentally friendly options.
 
 Accessibility Options: Provide filters for accessibility options like wheelchair-friendly vehicles.
+
+# Constraints 
+
+API keys were unavailable or were paid and hence not able to link real sites to generate prices ang gogle maps dropdown in picup and
+drop locations.

@@ -5,7 +5,7 @@ Connecting and comparing various online cab services to choose the most optimal 
 # Scalability for future
 Real-Time Price Updates: Integrate APIs from cab service providers to fetch real-time prices instead of generating random prices. This would make your website more useful and accurate.
 
-Ride Time Estimation: Along with the price, you could also show an estimated time for the journey. This could be fetched from the Google Maps API.
+Ride Time Estimation of cab arrival: Along with the price, you could also show an estimated time for the journey. This could be fetched from the Google Maps API.
 
 Price History: Keep a history of prices for common routes at different times of the day. This could help users identify the cheapest times to travel.
 

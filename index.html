@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cab Price Comparison</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+<!--  Tailwind CSS and CSS  -->
     <link href="style.css" rel="stylesheet">
     <script> 
         // Javascript inside HTML
         function getRandomPrice() {
-            return Math.floor(Math.random()*(600-500+1)) + 500;
+            return Math.floor(Math.random()*(600-500+1)) + 500; //API keys not available 
         }
-
+        
         async function getPrices() {
             return {
                 "Ola":"₹" + getRandomPrice(),

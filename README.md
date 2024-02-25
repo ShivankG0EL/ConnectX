@@ -1,6 +1,6 @@
-# ConnectX
+# ConnectX - "Where Cost Meets Convenience"
 # What we are all about
-Connecting and comparing various online cab services to choose the most optimal and cost-effective one
+Connecting and comparing various online cab services to choose the most optimal and cost-effective one.
 
 # Scalability for future
 Real-Time Price Updates: Integrate APIs from cab service providers to fetch real-time prices instead of generating random prices. This would make your website more useful and accurate.

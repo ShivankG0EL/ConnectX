@@ -1,7 +1,7 @@
 # ConnectX
-Connecting and comparing various online cab services to choose the most optimal and cost effective one
+Connecting and comparing various online cab services to choose the most optimal and cost-effective one
 
-#Scalability for future
+# Scalability for future
 Real-Time Price Updates: Integrate APIs from cab service providers to fetch real-time prices instead of generating random prices. This would make your website more useful and accurate.
 
 Ride Time Estimation: Along with the price, you could also show an estimated time for the journey. This could be fetched from the Google Maps API.

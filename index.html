@@ -54,6 +54,20 @@
                 priceList.appendChild(divItem);
             }
         }
+
+        // New function to get time estimate
+        async function getTimeEstimate() {
+            const pickupLocation = document.getElementById('pickupLocation').value;
+            const dropoffLocation = document.getElementById('dropoffLocation').value;
+
+            if (!pickupLocation || !dropoffLocation) {
+                alert('Please enter both pickup and drop-off locations.');
+                return;
+            }
+
+            const mapsLink = `https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(pickupLocation)}&destination=${encodeURIComponent(dropoffLocation)}`;
+            window.open(mapsLink, '_blank');
+        }
     </script>
 </head>
 <body class="bg-black text-white">
@@ -78,6 +92,7 @@
                 </div>
                 <div class="flex justify-center my-8">
                     <div class="px-4 py-2 bg-blue-500 text-white rounded-md" onclick="showPrices()">See Prices</div>
+                    <div class="px-4 py-2 bg-blue-500 text-white rounded-md ml-4" onclick="getTimeEstimate()">Get Time Estimate</div>
                 </div>
                 <ul id="priceList"></ul>
             </div>

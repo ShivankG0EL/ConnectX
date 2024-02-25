@@ -1,4 +1,5 @@
 # ConnectX
+# What we are all about
 Connecting and comparing various online cab services to choose the most optimal and cost-effective one
 
 # Scalability for future
